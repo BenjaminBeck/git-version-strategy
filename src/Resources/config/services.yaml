@@ -1,0 +1,5 @@
+services:
+    Emilep\GitVersionStrategyBundle\Asset\GitVersionStrategy:
+        public: false
+        arguments:
+            - "%%s?v=%%s"
