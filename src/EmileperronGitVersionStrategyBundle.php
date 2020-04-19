@@ -7,8 +7,4 @@ use Emileperron\GitVersionStrategyBundle\DependencyInjection\EmileperronGitVersi
 
 class EmileperronGitVersionStrategyBundle extends Bundle
 {
-    public function getContainerExtension()
-    {
-        return new EmileperronGitVersionStrategyExtension();
-    }
 }
