@@ -1,6 +1,6 @@
 <?php
 
-namespace Emilep\GitVersionStrategyBundle\Asset;
+namespace Emileperron\GitVersionStrategyBundle\Asset;
 
 use Symfony\Component\Asset\VersionStrategy\VersionStrategyInterface;
 

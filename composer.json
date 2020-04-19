@@ -1,5 +1,5 @@
 {
-    "name": "emilep/git-version-strategy-bundle",
+    "name": "emileperron/git-version-strategy-bundle",
     "description": "A custom version strategy for Symfony assets that uses the current Git commit short-hash as the version identifier.",
     "type": "symfony-bundle",
     "license": "MIT",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Emilep\\GitVersionStrategyBundle\\": "src/"
+            "Emileperron\\GitVersionStrategyBundle\\": "src/"
         }
     }
 }

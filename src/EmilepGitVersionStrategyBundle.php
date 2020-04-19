@@ -1,6 +1,6 @@
 <?php
 
-namespace Emilep\GitVersionStrategyBundle;
+namespace Emileperron\GitVersionStrategyBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
