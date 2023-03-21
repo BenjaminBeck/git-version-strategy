@@ -15,12 +15,12 @@ class GitVersionStrategy implements VersionStrategyInterface
         $this->commitHash = $this->getCommitHash();
     }
 
-    public function getVersion($path = null)
+    public function getVersion(string $path = null): string
     {
         return $this->commitHash;
     }
 
-    public function applyVersion($path)
+    public function applyVersion(string $path): string
     {
         $version = $this->getVersion();
 
@@ -31,7 +31,7 @@ class GitVersionStrategy implements VersionStrategyInterface
         return sprintf($this->format, $path, $version);
     }
 
-    protected function getCommitHash()
+    protected function getCommitHash(): string
     {
         return trim(`git rev-parse --short HEAD`);
     }
