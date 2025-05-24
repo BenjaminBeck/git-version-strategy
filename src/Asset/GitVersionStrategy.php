@@ -15,7 +15,7 @@ class GitVersionStrategy implements VersionStrategyInterface
         $this->commitHash = $this->getCommitHash();
     }
 
-    public function getVersion(string $path = null): string
+    public function getVersion(string ?$path = null): string
     {
         return $this->commitHash;
     }
